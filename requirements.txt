@@ -1,0 +1,16 @@
+# Real-Time Threat Detection System — Bağımlılıklar
+# Kurulum: pip install -r requirements.txt
+
+# ── Nesne Algılama & Takip ─────────────────────────────────────
+ultralytics>=8.2.0        # YOLOv8l + ByteTrack dahil
+lapx>=0.5.5               # ByteTrack için gerekli
+
+# ── Görüntü İşleme ─────────────────────────────────────────────
+opencv-python>=4.9.0
+
+# ── Arayüz (launcher.py) ───────────────────────────────────────
+# tkinter Python standart kütüphanesiyle gelir, ayrıca kurulum gerekmez
+# Ubuntu'da eksikse: sudo apt install python3-tk
+
+# ── GPU İzleme (opsiyonel) ─────────────────────────────────────
+# pynvml>=11.0.0          # GPU metrik takibi için aktifleştir

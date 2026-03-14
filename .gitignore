@@ -1,0 +1,49 @@
+# ── Python ─────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ── Sanal Ortam ────────────────────────────────────────────────
+.env
+.venv
+env/
+venv/
+ENV/
+
+# ── Model & Ağırlıklar ─────────────────────────────────────────
+# best.pt ve last.pt Git LFS ile yönetilebilir
+# *.pt  ← model dosyasını eklemek istersen bu satırı kaldır
+
+# ── YOLO Eğitim Çıktıları ──────────────────────────────────────
+runs/
+*.yaml.bak
+
+# ── Sistem Çıktıları ───────────────────────────────────────────
+logs/
+screenshots/
+output*.mp4
+*.log
+
+# ── IDE ────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# ── Jupyter ────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb
+
+# ── Geçici Dosyalar ────────────────────────────────────────────
+tmp/
+temp/
+*.tmp
+*.bak
