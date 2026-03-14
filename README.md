@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🚨 Real-Time Threat Detection System
+#  Real-Time Threat Detection System
 ### Gerçek Zamanlı Tehdit Tespit Sistemi
 
 <img src="assets/Ana_algoritma_drawio.png" width="480" alt="System Algorithm Flow"/>
@@ -41,13 +41,13 @@ The system does not merely detect "weapon present" — it identifies **which per
 
 ### Key Features
 
-- 🎯 **5-class detection:** Person, handgun, rifle, melee weapon, mask
-- 🧠 **Armed History Memory:** Threat status persists even when weapon is concealed
-- 📐 **Hybrid weapon assignment:** IoU + Expanded Box (±35%) for accurate person-weapon matching
-- ⚖️ **Weighted threat scoring:** Mask +10 / Melee +25 / Handgun +40 / Rifle +50
-- 🖥️ **GUI launcher:** Source selection (MP4/webcam) and full settings via `launcher.py`
-- 📸 **Automatic evidence capture:** Timestamped screenshots + structured logs
-- 🏗️ **Modular architecture:** 8 independent modules, dependency injection
+-  **5-class detection:** Person, handgun, rifle, melee weapon, mask
+-  **Armed History Memory:** Threat status persists even when weapon is concealed
+-  **Hybrid weapon assignment:** IoU + Expanded Box (±35%) for accurate person-weapon matching
+-  **Weighted threat scoring:** Mask +10 / Melee +25 / Handgun +40 / Rifle +50
+-  **GUI launcher:** Source selection (MP4/webcam) and full settings via `launcher.py`
+-  **Automatic evidence capture:** Timestamped screenshots + structured logs
+-  **Modular architecture:** 8 independent modules, dependency injection
 
 ### Installation
 
@@ -131,13 +131,13 @@ Sistem yalnızca "silah var" bilgisini üretmez; silahın **hangi kişiye ait ol
 
 ### Özellikler
 
-- 🎯 **5 sınıf tespiti:** İnsan, tabanca, tüfek, kesici alet, maske
-- 🧠 **Silahlı Geçmiş Hafızası:** Şüpheli silahını saklasa dahi tehlike statüsü korunur
-- 📐 **Hibrit silah atama:** IoU + Expanded Box (±%35) ile doğru kişi-silah eşleşmesi
-- ⚖️ **Ağırlıklı tehdit skoru:** Maske +10 / Kesici +25 / Tabanca +40 / Tüfek +50
-- 🖥️ **Grafik başlatıcı:** `launcher.py` ile kaynak (MP4/webcam) ve ayar seçimi
-- 📸 **Otomatik kanıt kaydı:** Zaman damgalı screenshot + yapılandırılmış log
-- 🏗️ **Modüler mimari:** 8 bağımsız modül, dependency injection
+-  **5 sınıf tespiti:** İnsan, tabanca, tüfek, kesici alet, maske
+-  **Silahlı Geçmiş Hafızası:** Şüpheli silahını saklasa dahi tehlike statüsü korunur
+-  **Hibrit silah atama:** IoU + Expanded Box (±%35) ile doğru kişi-silah eşleşmesi
+-  **Ağırlıklı tehdit skoru:** Maske +10 / Kesici +25 / Tabanca +40 / Tüfek +50
+-  **Grafik başlatıcı:** `launcher.py` ile kaynak (MP4/webcam) ve ayar seçimi
+-  **Otomatik kanıt kaydı:** Zaman damgalı screenshot + yapılandırılmış log
+-  **Modüler mimari:** 8 bağımsız modül, dependency injection
 
 ### Mimari
 
